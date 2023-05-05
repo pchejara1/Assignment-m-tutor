@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="69" viewBox="0 0 69 69">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00bfb2"/>
+      <stop offset="1" stop-color="#028090"/>
+    </linearGradient>
+  </defs>
+  <g id="icon" transform="translate(15.498 19.233)">
+    <rect id="Rectangle_273" data-name="Rectangle 273" width="69" height="69" rx="11" transform="translate(-15.498 -19.233)" fill="url(#linear-gradient)"/>
+    <path id="film" d="M33.063,0H1A1,1,0,0,0,0,1v26.44a1,1,0,0,0,1,1H33.063a1,1,0,0,0,1-1V1A1,1,0,0,0,33.063,0ZM12.809,17.568v-6.7a1.281,1.281,0,0,1,.713-1.14,1.415,1.415,0,0,1,1.4.074l5.71,3.333a1,1,0,0,1,.084.055,1.26,1.26,0,0,1,0,2.056,1,1,0,0,1-.084.055l-5.71,3.333a1.415,1.415,0,0,1-1.4.074A1.28,1.28,0,0,1,12.809,17.568ZM23.433,3.733V2h3.348V3.733Zm-2,0H18.088V2h3.349Zm-5.344,0H12.744V2h3.348Zm-5.344,0H7.4V2h3.348Zm0,20.97V26.44H7.4V24.7Zm2,0h3.348V26.44H12.744Zm5.344,0h3.349V26.44H18.088Zm5.344,0h3.348V26.44H23.433Zm8.633-20.97H28.777V2h3.289ZM5.4,2V3.733H2V2ZM2,24.7H5.4V26.44H2ZM28.777,26.44V24.7h3.289V26.44Zm0,0" transform="translate(1.503 0.767)" fill="#fff"/>
+  </g>
+</svg>

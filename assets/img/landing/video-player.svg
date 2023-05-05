@@ -1,0 +1,24 @@
+<svg id="video-player" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81.646" height="62.191" viewBox="0 0 81.646 62.191">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#10298a"/>
+      <stop offset="0.419" stop-color="#1a39b2"/>
+      <stop offset="1" stop-color="#4e73ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.041" y1="1" x2="1.875" y2="-0.629" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd7f01"/>
+      <stop offset="0.438" stop-color="#fc6b00"/>
+      <stop offset="1" stop-color="#f29b44"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_3977" data-name="Group 3977" transform="translate(4.784)">
+    <g id="Group_3976" data-name="Group 3976">
+      <path id="Path_25631" data-name="Path 25631" d="M99.686,61H32.392A2.392,2.392,0,0,0,30,63.392v52.623a2.392,2.392,0,0,0,2.392,2.392H99.686a2.392,2.392,0,0,0,2.392-2.392V63.392A2.392,2.392,0,0,0,99.686,61Z" transform="translate(-30 -61)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="Group_3979" data-name="Group 3979" transform="translate(0 14.352)">
+    <g id="Group_3978" data-name="Group 3978" transform="translate(0 0)">
+      <path id="Path_25632" data-name="Path 25632" d="M34.91,174.636a2.392,2.392,0,0,0,2.455-.119l14.352-9.568a2.392,2.392,0,0,0,0-3.981L37.366,151.4a2.392,2.392,0,0,0-3.719,1.99v19.136a2.392,2.392,0,0,0,1.263,2.109Zm44.343,14.635H2.392A2.392,2.392,0,0,0,0,191.663a7.176,7.176,0,0,0,7.176,7.176H74.47a7.176,7.176,0,0,0,7.176-7.176A2.392,2.392,0,0,0,79.254,189.271Z" transform="translate(0 -151)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

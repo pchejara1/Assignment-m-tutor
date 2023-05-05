@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/flaticon.css">
+    <!-- Styles CSS -->
+    <link href="assets/css/style.css?v=0.4" rel="stylesheet">
+    <link href="assets/css/custom.css?v=0.4" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-page">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
+                    <div class="header-right">
+                        <div class="grade-dropdown mr-3">
+                            <div class="">
+                                <a href="#" class="btn btn-danger nav-buy-btn pos-rel ripple-surface"
+                                    style="min-width: 37px;">
+                                    <i class="flaticon-shopping-cart"></i> <span class="nav-buy-text d-none">Buy
+                                        Now</span>
+                                    <div class="cart-num">0</div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="grade-dropdown">
+                            <div class="dropdown">
+                                <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenu2"
+                                    data-mdb-toggle="dropdown" aria-expanded="false">
+                                    Grade </button>
+                                <div class="dropdown-menu dropdown-menu-icon-list mt-3 ">
+                                    <span class="dropdown-menu-arrow"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-info-dropdown">
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                                    <span class="user-icon">
+                                        <img style="height:100% !important; width:100% !important;"
+                                            src="assets/img/default.png" alt="">
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="content-wrap">
+            <div class="search-banner pos-rel" style="background-image: url(assets/img/header-bg.png);">
+                <div class="container">
+                    <div class="search-inner">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h3 class="search-tit">Looking For..</h3>
+                                <div class="input-group search-box">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><img src="assets/img/svg/search.svg"
+                                                alt=""></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="search_text" placeholder="Type Here"
+                                        value="">
+                                    <i id="searchclear" class="flaticon-cancel"></i>
+                                    <div class="input-group-append" id="search-button" style="cursor:pointer;">
+                                        <span class="input-group-text">Search</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="search-img"><img src="assets/img/rocket.svg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-shelf">
+                        <img src="assets/img/book-shelf.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Search Banner Ends -->
+            <!-- Tab Section Starts -->
+            <div class="tab-sec">
+                <div class="container">
+                    <ul class="tab-list list-inline row">
+                        <!-- Tab item Starts -->
+                        <li class="list-inline-item col">
+                            <a href="#" class="tab-item text-center  active">
+                                <div class="tab-icon-bg">
+                                    <div class="tab-icon">
+                                        <i class="flaticon-exam"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="tab-tit">Overview</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- Tab item Ends -->
+                        <!-- Tab item Starts -->
+                        <li class="list-inline-item col">
+                            <a href="#" class="tab-item text-center ">
+                                <div class="tab-icon-bg">
+                                    <div class="tab-icon">
+                                        <i class="flaticon-mortarboard"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="tab-tit">Learn</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- Tab item Ends -->
+                        <!-- Tab item Starts -->
+                        <li class="list-inline-item col">
+                            <a href="#" class="tab-item text-center ">
+                                <div class="tab-icon-bg">
+                                    <div class="tab-icon">
+                                        <i class="flaticon-exam"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="tab-tit">Assessment</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- Tab item Ends -->
+                        <!-- Tab item Starts -->
+                        <li class="list-inline-item col">
+                            <a href="#" class="tab-item text-center ">
+                                <div class="tab-icon-bg">
+                                    <div class="tab-icon">
+                                        <i class="flaticon-questions"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="tab-tit">Question Bank</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- Tab item Ends -->
+                        <!-- Tab item Starts -->
+                        <li class="list-inline-item col">
+                            <a href="#" class="tab-item text-center ">
+                                <div class="tab-icon-bg">
+                                    <div class="tab-icon">
+                                        <i class="flaticon-question"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="tab-tit">Ask a Doubt</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- Tab item Ends -->
+                        <!-- Tab item Starts -->
+                        <li class="list-inline-item col">
+                            <a href="#" class="tab-item text-center ">
+                                <div class="tab-icon-bg">
+                                    <div class="tab-icon">
+                                        <i class="flaticon-idea"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="tab-tit">IQ</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- Tab item Ends -->
+                        <!-- Tab item Starts -->
+                        <li class="list-inline-item col">
+                            <a href="#" class="tab-item text-center ">
+                                <div class="tab-icon-bg">
+                                    <div class="tab-icon">
+                                        <i class="flaticon-sheet"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="tab-tit">Worksheets</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- Tab item Ends -->
+                    </ul>
+                    <div class="dropdown res-menu-drop ">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            <span class="res-drop-icon"><i class="flaticon-exam"></i></span>
+                            <span class="res-drop-txt">Overview</span>
+                        </button>
+                        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <span class="res-drop-icon"><i class="flaticon-mortarboard"></i></span>
+                                    <span class="res-drop-txt">Learn</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <span class="res-drop-icon"><i class="flaticon-exam"></i></span>
+                                    <span class="res-drop-txt">Assesment</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <span class="res-drop-icon"> <i class="flaticon-questions"></i></span>
+                                    <span class="res-drop-txt">Question Bank</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <span class="res-drop-icon"><i class="flaticon-question"></i></span>
+                                    <span class="res-drop-txt">Ask a Doubt</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <span class="res-drop-icon"> <i class="flaticon-idea"></i></span>
+                                    <span class="res-drop-txt">IQ</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <span class="res-drop-icon"><i class="flaticon-sheet"></i></span>
+                                    <span class="res-drop-txt">Worksheets</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-content-wrap pos-rel">
+                <div class="pencil"><img src="assets/img/pencil.svg"></div>
+                <div class="way-pencil"><img src="assets/img/way-pencil.png"></div>
+                <div class="school-boy"><img src="assets/img/school-boy.svg"></div>
+                <div class="school-girl"><img src="assets/img/school-girl.svg"></div>
+                <div class="line-shape"><img src="assets/img/line.svg"></div>
+                <div class="container pos-rel">
+                    <h1 class="main-tit">Overview <span class="grade-tit"></h1>
+                    <div class="sec-banner bg-img mb-5" style="background-image: url(assets/img/home-banner.svg);">
+                        <div class="row">
+                            <div class="col-md-7 col-12">
+                                <h2 class="sec-banner-tit">Invite Your Friends</h2>
+                                <p class="sec-banner-txt">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitn unc quis viverra tortor eu
+                                    ullamcorper ipsum mauris vehicula vehicula purus tincidunt.
+                                </p>
+                                <a href="javascript:void(0);" class="cmn-btn large-btn">Invite Friends</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section overview-widgets mb-5">
+                        <div class="sec-head">
+                            <h3 class="sec-head-tit">Overview</h3>
+                        </div>
+                        <div class="over-widget-wrap row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="over-wid-box bg-img text-center">
+                                    <div class="overview-icon"><img src="assets/img/overview-video.svg"></div>
+                                    <h3 class="overview-num">30</h3>
+                                    <h5 class="overview-tit">Videos Completed</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="over-wid-box bg-img text-center">
+                                    <div class="overview-icon"><img src="assets/img/overview-time.svg"></div>
+                                    <h3 class="overview-num">531</h3>
+                                    <h5 class="overview-tit">Total Hours</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="over-wid-box bg-img text-center">
+                                    <div class="overview-icon"><img src="assets/img/overview-questions.svg"></div>
+                                    <h3 class="overview-num">46</h3>
+                                    <h5 class="overview-tit">Question Banks</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="over-wid-box bg-img text-center">
+                                    <div class="overview-icon"><img src="assets/img/overview-video1.svg"></div>
+                                    <h3 class="overview-num">654</h3>
+                                    <h5 class="overview-tit">Total Videos</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section subject-wrap mb-5">
+                        <div class="row">
+                            <div class="col-md-8 col-7">
+                                <div class="sec-head">
+                                    <h3 class="sec-head-tit">Your Subjects</h3>
+                                    <p class="sec-head-txt">
+                                        <span>CBSE / </span>
+                                        <span class="active">10th Grade</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-5 text-right view-more">
+                                <a href="#">View More <i class="flaticon-next"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="sec-content row">
+                            <div class="col-lg-2 col-md-4">
+                                <a href="#" class="subject-box text-center">
+                                    <div class="subject-icon"><img src="assets/img/maths.svg"></div>
+                                    <h6 class="subject-tit">Maths</h6>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-4">
+                                <a href="#" class="subject-box text-center">
+                                    <div class="subject-icon"><img src="assets/img/english.svg"></div>
+                                    <h6 class="subject-tit">English</h6>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-4">
+                                <a href="#" class="subject-box text-center">
+                                    <div class="subject-icon"><img src="assets/img/history.svg"></div>
+                                    <h6 class="subject-tit">History</h6>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-4">
+                                <a href="#" class="subject-box text-center">
+                                    <div class="subject-icon"><img src="assets/img/science.svg"></div>
+                                    <h6 class="subject-tit" title="Science">Science</h6>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-4">
+                                <a href="#" class="subject-box text-center">
+                                    <div class="subject-icon"><img src="assets/img/social-science.svg"></div>
+                                    <h6 class="subject-tit" title="Social Science">Social Science</h6>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-4">
+                                <a href="#" class="subject-box text-center">
+                                    <div class="subject-icon"><img src="assets/img/evs.svg"></div>
+                                    <h6 class="subject-tit">EVS</h6>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="section what-sec mb-5">
+                        <div class="sec-head">
+                            <h3 class="sec-head-tit">Recently Watched</h3>
+                        </div>
+                        <div class="sec-content">
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6">
+                                    <a class="topic_click" href="#" data-id="3513">
+                                        <div class="video-box pos-rel">
+                                            <div class="video-img"><img src="assets/img/video-thmb.jpg">
+                                            </div>
+                                            <div class="video-overlay"></div>
+                                            <div class="video-tit">Algebraic expressions and identities</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6">
+                                    <a class="topic_click" href="#" data-id="1284">
+                                        <div class="video-box pos-rel">
+                                            <div class="video-img"><img src="assets/img/video-thmb.jpg">
+                                            </div>
+                                            <div class="video-overlay"></div>
+                                            <div class="video-tit">Algebraic expressions and identities</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <a class="topic_click" href="#" data-id="3354">
+                                        <div class="video-box pos-rel">
+                                            <div class="video-img"><img src="assets/img/video-thmb.jpg">
+                                            </div>
+                                            <div class="video-overlay"></div>
+                                            <div class="video-tit">Algebraic expressions and identities</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <a class="topic_click" href="#" data-id="3544">
+                                        <div class="video-box pos-rel">
+                                            <div class="video-img"><img src="assets/img/video-thmb.jpg">
+                                            </div>
+                                            <div class="video-overlay"></div>
+                                            <div class="video-tit">Algebraic expressions and identities</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section what-sec mb-5">
+                        <div class="sec-head">
+                            <h3 class="sec-head-tit">What’s New</h3>
+                        </div>
+                        <div class="sec-content">
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6">
+                                    <a class="topic_click" href="#" data-id="3513">
+                                        <div class="video-box pos-rel">
+                                            <div class="video-img"><img src="assets/img/video-thmb.jpg">
+                                            </div>
+                                            <div class="video-overlay"></div>
+                                            <div class="video-tit">Algebraic expressions and identities</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <a class="topic_click" href="#" data-id="1284">
+                                        <div class="video-box pos-rel">
+                                            <div class="video-img"><img src="assets/img/video-thmb.jpg">
+                                            </div>
+                                            <div class="video-overlay"></div>
+                                            <div class="video-tit">Algebraic expressions and identities</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <a class="topic_click" href="#" data-id="3354">
+                                        <div class="video-box pos-rel">
+                                            <div class="video-img"><img src="assets/img/video-thmb.jpg">
+                                            </div>
+                                            <div class="video-overlay"></div>
+                                            <div class="video-tit">Algebraic expressions and identities</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <a class="topic_click" href="#" data-id="3544">
+                                        <div class="video-box pos-rel">
+                                            <div class="video-img"><img src="assets/img/video-thmb.jpg">
+                                            </div>
+                                            <div class="video-overlay"></div>
+                                            <div class="video-tit">Algebraic expressions and identities</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstarp JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Slick JS -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Scripts -->
+    <script src="assets/js/scripts.js?v=3"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js?v=3"></script>
+</body>
+
+</html>
